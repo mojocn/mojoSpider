@@ -8,14 +8,9 @@
 import scrapy
 
 
-class MyscrapyItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
-
-
-class W3CItem(scrapy.Item):
-    # define the fields for your item here like:
+class ZimuzuItem(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
-    desc = scrapy.Field()
+    body = scrapy.Field()
+    images = scrapy.Field()
+    oss_images = scrapy.Field()

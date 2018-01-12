@@ -68,7 +68,8 @@ ROBOTSTXT_OBEY = True
 #    'myScrapy.pipelines.MyscrapyPipeline': 300,
 #}
 ITEM_PIPELINES = {
-   'myScrapy.pipelines.W3CPipeline': 300,
+   'myScrapy.pipelines.QiniuPipline': 300,
+   'myScrapy.pipelines.ZimuzuPipeline': 301,
    #'myScrapy.pipelines.DataSavePipeLine': 301,
 }
 # Enable and configure the AutoThrottle extension (disabled by default)
